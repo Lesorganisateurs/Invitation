@@ -3,7 +3,7 @@ function checkPassword() {
     
     if (password === "Caca") {
         // Masquer le cadre mot de passe
-        document.getElementById("password").style.display = "none";
+        document.getElementById("password-form").style.display = "none";
         // Masquer l'image en changeant la valeur de display à "none"
             document.getElementById("image").style.display = "none";
         // Afficher le message d'invitation
