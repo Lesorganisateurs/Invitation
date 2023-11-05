@@ -1,7 +1,7 @@
 function checkPassword() {
     var password = document.getElementById("password").value;
     
-    if (password === "Pythagore") {
+    if (password === "Caca") {
         document.getElementById("password").style.display = "none";
         document.getElementById("invitation").style.display = "block";
     } else {
