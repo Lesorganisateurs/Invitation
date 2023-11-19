@@ -6,6 +6,8 @@ function checkPassword() {
         document.getElementById("password-form").style.display = "none";
         // Masquer l'image en changeant la valeur de display à "none"
             document.getElementById("image").style.display = "none";
+        // Masquer l'image en changeant la valeur de countdown à "none"
+          document.getElementById("countdown").style.display = "none";
         // Afficher le message d'invitation
         document.getElementById("invitation").style.display = "block";
     } else {
