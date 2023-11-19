@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     // Définir la date de fin du décompteur (10 minutes dans cet exemple)
     var countdownDate = new Date();
-    countdownDate.setMinutes(countdownDate.getMinutes() + 10);
+    countdownDate.setMinutes(countdownDate.getMinutes() + 60);
 
     // Mettre à jour le décompteur chaque seconde
     var countdownInterval = setInterval(function () {
