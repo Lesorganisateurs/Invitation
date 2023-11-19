@@ -7,15 +7,25 @@ body {
 }
 
 #timer {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 #countdown {
     font-size: 24px;
     color: #0077b6;
+}
+
+#image-container {
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 .password-form {
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
 input[type="password"] {
@@ -35,6 +45,8 @@ button {
     cursor: pointer;
 }
 
-.hidden {
-    display: none;
+#error-message {
+    color: red;
+    margin-top: 10px;
 }
+
