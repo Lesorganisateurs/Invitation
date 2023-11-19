@@ -1,34 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-    <title>Invitation Mr. & Mrs Doe</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Étape 1</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="timer">
-        <h1>Temps restant : <span id="countdown">60:00</span></h1>
-    </div>
 
-    <script src="Timer.js"></script>
-    
-    <img id="image" src="Rebus Pythagore.PNG" alt="Description de l'image">
-    <div id="password-form" class="password-form">
-        <h2>Entrez le mot de passe :</h2>
-        <input type="password" id="password" placeholder="Mot de passe">
-        <button onclick="checkPassword()">Entrer</button>
-    </div>
-    <div id="invitation" class="hidden">
-        <h3>Bien joué!</h3>
-        <p>Si vous êtes arrivé à ce stade, c'est que vous avez passé avec succès toutes les épreuves.</p> 
-        <p>Nous serions heureux de pouvoir vous compter parmis nos invités le 09/12 décembre à 16h.  </p>
-        <p>En toute franchise, nous avons peur qu'un crime se produise et nous aurions bien besoin de votre aide. </p>
-        <h4>Code vestimentaire</h4>
-        <p>Pour vous confondre dans les invités, venez en pantalon noir et chemise/chemisier de couleur blanche. </p>
-        <p>Pour vous confondre dans les invités, venez en pantalon noir et chemise/chemisier de couleur blanche. </p>
-    </div>
+<div id="timer">
+    <h1>Temps restant : <span id="countdown">01:00:00</span></h1>
+</div>
 
-    <script src="script.js"></script>
+<div id="image-container">
+    <img src="image1.jpg" alt="Image 1">
+</div>
+
+<div class="password-form">
+    <h2>Étape 1</h2>
+    <input type="password" id="password" placeholder="Mot de passe">
+    <button onclick="checkPassword('mot de passe 1', 'page2.html')">Entrer</button>
+    <p id="error-message"></p>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
