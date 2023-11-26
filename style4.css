@@ -2,11 +2,14 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url('background-image.jpg'); /* Remplacez 'background-image.jpg' par le chemin de votre image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
 }
 
 header {
-    background-color: #0077b6;
-    color: #fff;
+    background-color: rgba(0, 119, 182, 0.8);
     text-align: center;
     padding: 20px;
 }
@@ -15,9 +18,10 @@ header {
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #000; /* Changez la couleur du texte pour qu'il soit lisible sur le fond clair */
 }
 
 .invitation p {
