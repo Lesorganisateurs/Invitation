@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('Cadeau_sous_le_sapin.jpg'); /* Remplacez 'background-image.jpg' par le chemin de votre image */
+    background-image: url('Cadeau_sous_le_sapin.jpg'); 
     background-size: cover;
     background-position: center;
     color: #fff;
