@@ -28,15 +28,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }, 1000);
 });
 
-function checkPassword(expectedPassword, nextPage) {
-    var password = document.getElementById("password").value;
-
-    if (password === expectedPassword) {
-        window.location.href = nextPage;
-    } else {
-        document.getElementById("error-message").innerHTML = "Mot de passe incorrect. Veuillez réessayer.";
-    }
-
 document.addEventListener("DOMContentLoaded", function () {
     // Le reste du code pour le décompteur reste inchangé
 
